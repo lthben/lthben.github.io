@@ -1,0 +1,36 @@
+{
+  "name": "fend_website_optimisation",
+  "version": "1.0.0",
+  "description": "Project for Udacity's FEND course",
+  "main": "index.js",
+  "scripts": {
+    "info": "echo 'npm as a build tool",
+    "lint": "echo '=> linting' && jshint assets/scripts/main.js && jshint assets/scripts/perfmatters.js",
+    "test": "echo '=> testing TODO'",
+    "minify:js": "echo '=> minify:js' && uglifyjs ../dist/js/bundle.js -o ../dist/js/bundle.min.js && uglifyjs assets/scripts/perfmatters.js -o ../dist/js/perfmatters.min.js",
+    "minify:css": "echo '=> minify:css' && cleancss assets/css/style.css -o ../dist/css/style.min.css && cleancss assets/css/print.css -o ../dist/css/print.min.css",
+    "pretest": "npm run lint -s",
+    "browserify": "echo '=> browserify' && browserify assets/scripts/main.js > ../dist/js/bundle.js",
+    "watch": "watch 'npm run browserify -s && npm run minify:js -s && npm run minify:css -s' assets/scripts/ assets/css/",
+    "server": "echo 'run python server in dist/public' && cd dist/public && python -m SimpleHTTPServer 8000",
+    "ngrok": "echo 'run ngrok in current dir' && ./ngrok http 8000",
+    "minify:html": "echo '=> minify:html' && cd ../dist && html-minifier -o index.min.html --collapse-boolean-attributes --remove-attribute-quotes --remove-comments --remove-empty-attributes --remove-optional-tags --remove-tag-whitespace --collapse-whitespace --remove-empty-elements --remove-redundant-attributes index.html && html-minifier -o project-2048.min.html --collapse-boolean-attributes --remove-attribute-quotes --remove-comments --remove-empty-attributes --remove-optional-tags --remove-tag-whitespace --collapse-whitespace --remove-empty-elements --remove-redundant-attributes project-2048.html && html-minifier -o project-mobile.min.html --collapse-boolean-attributes --remove-attribute-quotes --remove-comments --remove-empty-attributes --remove-optional-tags --remove-tag-whitespace --collapse-whitespace --remove-empty-elements --remove-redundant-attributes project-mobile.html && html-minifier -o project-webperf.min.html --collapse-boolean-attributes --remove-attribute-quotes --remove-comments --remove-empty-attributes --remove-optional-tags --remove-tag-whitespace --collapse-whitespace --remove-empty-elements --remove-redundant-attributes project-webperf.html",
+    "critical": "echo '=> inlining css' && critical index.html --css={'assets/css/style.css','assets/css/print.css'} --inline=true --minify=true --dest='../dist/index.html' -s",
+    "build": "echo '=> building' && npm run browserify -s && npm run critical && npm run minify:js -s && npm run minify:css -s && npm run minify:html -s"
+  },
+  "author": "Benjamin Low",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "critical": "^0.8.0",
+    "webfontloader": "^1.6.26"
+  },
+  "devDependencies": {
+    "clean-css": "^3.4.20",
+    "http-server": "^0.9.0",
+    "jshint": "^2.9.3",
+    "mocha": "^3.1.2",
+    "uglifyjs": "^2.4.10",
+    "watch": "^1.0.1"
+  }
+}
