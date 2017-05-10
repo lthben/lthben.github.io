@@ -2,11 +2,13 @@
 
 Classic Arcade Game Clone 
 
-![Frogger screenshot](https://lthben.github.io/frogger.PNG)(https://lthben.github.io/FEND_frogger_arcade_game/index.html)
+![Frogger screenshot](https://lthben.github.io/frogger.PNG)
+
+[link](https://lthben.github.io/FEND_frogger_arcade_game/index.html)
 
 An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.
 
-Follow the on-screen instructions on how to play.
+Follow the on-screen instructions on how to play. Click on the browser back button when done.
 
 Website Optimisation
 Iamge2
