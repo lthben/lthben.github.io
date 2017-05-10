@@ -1,8 +1,12 @@
 ## My Front-End Web Development Portfolio
 
 Classic Arcade Game Clone 
+
 [Image1](https://lthben.github.io/FEND_frogger_arcade_game/index.html)
+
 An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.
+
+Follow the on-screen instructions on how to play.
 
 Website Optimisation
 Iamge2
