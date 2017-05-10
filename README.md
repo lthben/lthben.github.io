@@ -1,3 +1,9 @@
+## My Front-End Web Development Portfolio
+
+Frogger Arcade Game | Website Optimisation
+Image1 | Image2
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/lthben/lthben.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
