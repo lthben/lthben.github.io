@@ -10,12 +10,22 @@ An HTML5 Canvas powered video game, developed using the best practices in Object
 
 Follow the on-screen instructions on how to play. Click on the browser back button when done.
 
-Website Optimisation
-Iamge2
+
+### Website Optimisation
+
+![Pizzeria screenshot](https://lthben.github.io/pizza.png)
+
+[Project link](https://github.com/lthben/lthben.github.io/tree/master/FEND_website_optimisation/dist/index.html)
+
 Optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.
 
-Neighbourhood Map
-Image3
+
+### Neighbourhood Map
+
+![Pizzeria screenshot](https://lthben.github.io/pizza.png)
+
+[Project link](https://github.com/lthben/lthben.github.io/tree/master/FEND_website_optimisation/dist/index.html)
+
 A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest. Users can search all included landmarks and, when selected, additional information about a landmark is presented from the FourSquare and Wikipedia APIs.
 
 Feed Reader Testing
