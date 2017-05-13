@@ -21,8 +21,7 @@ A single-page web application, built using the Knockout framework, that displays
 
 ### 4. Feed Reader Testing
 
-[<img src="https://lthben.github.io/feedreader.png">]
-(https://lthben.github.io/FEND_feedreader/index.html)
+[<img src="https://lthben.github.io/feedreader.png">](https://lthben.github.io/FEND_feedreader/index.html)
 
 Wrote comprehensive unit tests, using the Jasmine testing framework, for an RSS Feed Reader application that uses Google's RSS API.
 
