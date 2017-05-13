@@ -15,14 +15,14 @@ Optimized an inefficient web application's JavaScript, CSS and assets delivery, 
 
 ### 3. Neighbourhood Map
 
-[<img src="https://lthben.github.io/map_app.png">](https://lthben.github.io/FEND_Neighborhood_Map/dist/index.html)
+[<img src="https://lthben.github.io/map_app.png">](https://lthben.github.io/FEND_Neighborhood_Map/index.html)
 
 A single-page web application, built using the Knockout framework, that displays a Google Map of an area and various points of interest. Users can search all included landmarks and, when selected, additional information about a landmark is presented from the Wikipedia APIs. This app introduces Singapore's downtown area.
 
 ### 4. Feed Reader Testing
 
 [<img src="https://lthben.github.io/feedreader.png">]
-(https://lthben.github.io/FEND_feedreader/dist/index.html)
+(https://lthben.github.io/FEND_feedreader/index.html)
 
 Wrote comprehensive unit tests, using the Jasmine testing framework, for an RSS Feed Reader application that uses Google's RSS API.
 
