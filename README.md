@@ -1,7 +1,7 @@
 ## My Front-End Web Development Portfolio
 
 
-### Classic Arcade Game Clone 
+### 1. Classic Arcade Game Clone 
 
 ![Frogger screenshot](https://lthben.github.io/frogger.PNG)
 
@@ -12,7 +12,13 @@ An HTML5 Canvas powered video game, developed using the best practices in Object
 
 
 
-### Website Optimisation
+
+
+
+
+
+
+### 2. Website Optimisation
 
 ![Pizzeria screenshot](https://lthben.github.io/pizza.png)
 
@@ -23,7 +29,7 @@ Optimized an inefficient web application's JavaScript, CSS and assets delivery, 
 
 
 
-### Neighbourhood Map
+### 3. Neighbourhood Map
 
 ![Pizzeria screenshot](https://lthben.github.io/map_app.png)
 
@@ -34,7 +40,7 @@ A single-page web application, built using the Knockout framework, that displays
 
 
 
-### Feed Reader Testing
+### 4. Feed Reader Testing
 
 ![Feedreader screenshot](https://lthben.github.io/feedreader.png)
 
