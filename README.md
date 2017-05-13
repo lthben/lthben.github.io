@@ -9,7 +9,7 @@ An HTML5 Canvas powered video game, developed using the best practices in Object
 
 ### 2. Website Optimisation
 
-[<img src="https://lthben.github.io/pizza.png">](https://lthben.github.io/FEND_website_optimisation/dist/index.html)
+[<img src="https://lthben.github.io/pizza.png">](https://lthben.github.io/FEND_website_optimisation/dist/views/pizza.html)
 
 Optimized an inefficient web application's JavaScript, CSS and assets delivery, ensuring it runs at 60fps and achieves a PageSpeed score of at least 90.
 
