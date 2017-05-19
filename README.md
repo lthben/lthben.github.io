@@ -1,6 +1,3 @@
-## My Front-End Web Development Portfolio
-
-
 ### 1. Classic Arcade Game Clone 
 
 [<img src="https://lthben.github.io/frogger.png">](https://lthben.github.io/FEND_frogger_arcade_game/index.html)
